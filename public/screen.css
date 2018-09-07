@@ -27,6 +27,21 @@ body.article {
   justify-content: center;
 }
 
+.navigation li {
+  list-style-type: none;
+  padding: 7px 10px;
+}
+
+.navigation li a {
+  color: white;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(84, 188, 210);
+}
+
 .content {
   width: 75%;
   height: 70%;
