@@ -27,13 +27,34 @@ h2 {
   font-weight: 900;
 }
 
+p {
+  line-height: 19px;
+}
+
 body.article {
   display: flex;
   justify-content: center;
 }
 
+.cat-pic {
+  object-fit: contain;
+}
+
+.aside img {
+  width: 192px;
+  height: 200px;
+  object-fit: fill;
+  padding: 4px;
+}
+
+.aside {
+  border: 1px solid rgb(145, 185, 196);
+  margin: 5px 30px;
+  width: 200px;
+}
+
 .main-content main {
-  padding: 0 15px;
+  padding: 0 30px 0 10px;
 }
 
 .main-content {
