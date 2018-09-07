@@ -11,13 +11,6 @@ body {
   color: rgb(68, 84, 101);
 }
 
-header {
-  text-align: center;
-  width: 700px;
-  margin: auto;
-  font-family: palatino;
-}
-
 h1 {
   font-weight: 100;
   font-size: 2.5rem;
@@ -34,6 +27,14 @@ p {
 body.article {
   display: flex;
   justify-content: center;
+}
+
+.header {
+  display: flex;
+  font-family: palatino;
+  justify-content: center;
+  height: 50px;
+  padding-bottom: 20px;
 }
 
 .cat-pic {
