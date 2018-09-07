@@ -33,9 +33,35 @@ body.article {
   justify-content: center;
 }
 
+.navigation li {
+  list-style-type: none;
+  padding: 7px 10px;
+}
+
+.navigation li a {
+  color: white;
+}
+
+.footer li a {
+  color: black;
+}
+
+.footer li {
+  padding: 0 10px;
+}
+
 .kitteh-of-day li {
   color: black;
   padding: 2px 0;
+}
+
+.footer {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  background-color: rgb(211, 211, 211);
+  padding: 20px 0px;
+  margin-bottom: 0;
 }
 
 .kitteh-of-day {
@@ -75,15 +101,6 @@ body.article {
 .main-content {
   display: flex;
   flex-direction: row-reverse;
-}
-
-.navigation li {
-  list-style-type: none;
-  padding: 7px 10px;
-}
-
-.navigation li a {
-  color: white;
 }
 
 .navigation {
