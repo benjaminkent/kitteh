@@ -20,6 +20,10 @@ h2 {
   font-weight: 900;
 }
 
+h3 {
+  margin: 0 auto auto 5px;
+}
+
 p {
   line-height: 19px;
 }
@@ -27,6 +31,16 @@ p {
 body.article {
   display: flex;
   justify-content: center;
+}
+
+.kitteh-of-day li {
+  color: black;
+  padding: 2px 0;
+}
+
+.kitteh-of-day {
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -50,7 +64,7 @@ body.article {
 
 .aside {
   border: 1px solid rgb(145, 185, 196);
-  margin: 5px 30px;
+  margin: 5px 30px 50px 30px;
   width: 200px;
 }
 
