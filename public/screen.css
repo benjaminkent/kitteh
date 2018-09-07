@@ -5,5 +5,17 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  font: 16px / 1 sans-serif;
+  font: 15px / 1 sans-serif;
+  background-color: rgb(59, 136, 158);
+}
+
+body.article {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 75%;
+  height: 70%;
+  background-color: rgb(225, 241, 243);
 }
