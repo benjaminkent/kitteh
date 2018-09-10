@@ -115,3 +115,9 @@ body.article {
   background-color: rgb(225, 241, 243);
   margin-top: 3px;
 }
+
+@media (max-width: 700px) {
+  body {
+    background-color: purple;
+  }
+}
