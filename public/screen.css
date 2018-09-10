@@ -91,7 +91,6 @@ body.article {
 .aside {
   border: 1px solid rgb(145, 185, 196);
   margin: 5px 30px 50px 30px;
-  width: 200px;
 }
 
 .main-content main {
@@ -100,7 +99,7 @@ body.article {
 
 .main-content {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .navigation {
@@ -116,8 +115,43 @@ body.article {
   margin-top: 3px;
 }
 
+.summary p {
+  display: none;
+}
+
 @media (max-width: 700px) {
-  body {
-    background-color: purple;
+  .navigation {
+    display: none;
+  }
+
+  .header {
+    padding-bottom: 30px;
+  }
+
+  .header h1 {
+    font-size: 1.6rem;
+  }
+
+  .aside {
+    border: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .aside h3,
+  .aside ul {
+    display: none;
+  }
+
+  .main-content {
+    display: block;
+  }
+
+  .summary p {
+    display: block;
+  }
+
+  .details p {
+    display: none;
   }
 }
